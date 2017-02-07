@@ -1,53 +1,30 @@
-* {
-  font-family: Arial;
-  text-align: justify;
-}
 
-body {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/78/32/0e/78320eb1adec391543a0dea74341ab15.jpg");
-  background-position: top center;
-  background-size: cover;
-}
 h1 {
-  font-family: Georgia;
-  color: #FF6EB4;
+  font-family: Impact;
+  color: purple;
   text-align: center;
-  font-size: 60px ;
+  font-size: 60px;
 }
 
-h2,
-h3,
-h4,
-h5 {
+h3 {
   font-family: Impact;
   color: Purple;
-  font-size: 25px;
-  text-align: left;
-  border-style: solid;
-  border-width: 2px;
+  font-size: 30px;
+  text-align: center;
+  border-style: dotted;
+  border-width: 3px;
   margin: 60px auto;
   padding: 10px 5px 10px 5px;
   width: auto;
-  background-color: #EE82EE;
-  border-radius: 10px;
-}
-
-h6 {
-  font-family: Georgia;
-  color: Purple;
-  font-size: 25px;
-  text-align: left;
-  border-style: solid;
-  border-width: 2px;
-  margin: 60px auto;
-  padding: 10px 10px 10px 10px;
-  width: auto;
-  background-color: #EE82EE;
+  background-color: #FFE1FF;
   border-radius: 10px;
 }
 
 p {
   text-align: justify;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
 }
 
 .container {
@@ -66,4 +43,28 @@ p {
 .photo {
   width: 100%;
   border-radius: 50%;
+}
+
+td {
+  text-align: left;
+  border-style: dotted;
+  border-width: 3px;
+  margin: 60px auto;
+  padding: 10px 10px 10px 10px;
+  width: auto;
+  background-color: #FFE1FF;
+  border-radius: 10px;
+}
+
+th {
+  font-family: Impact;
+  font-size: 30px;
+  color: purple;
+  margin-top: 30px;
+  text-align: center;
+}
+ul {
+  font-size: 20px;
+  font-family: Arial;
+  color: black;
 }
