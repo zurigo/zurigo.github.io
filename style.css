@@ -37,11 +37,15 @@ p {
 .sidebar {
   width: 33%;
   padding: 10%;
+  align-items: center;
 }
 
 .photo {
-  width: 30%;
+  width: 50%;
   border-radius: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th {
@@ -56,6 +60,7 @@ ul {
   font-size: 20px;
   font-family: Arial;
   color: black;
+  text-align: center;
 }
 
 .contacts {
